@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D2FB2E0CB5CD314A73DEBB7 /* Pods_Balot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E7665793B568EE8B4B701D /* Pods_Balot.framework */; };
 		632E4CB8214D0B8A0057C46D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632E4CB7214D0B8A0057C46D /* AppDelegate.swift */; };
 		632E4CBA214D0B8A0057C46D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632E4CB9214D0B8A0057C46D /* ViewController.swift */; };
 		632E4CBD214D0B8A0057C46D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632E4CBB214D0B8A0057C46D /* Main.storyboard */; };
 		632E4CC0214D0B8A0057C46D /* Balot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 632E4CBE214D0B8A0057C46D /* Balot.xcdatamodeld */; };
 		632E4CC2214D0B8D0057C46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 632E4CC1214D0B8D0057C46D /* Assets.xcassets */; };
 		632E4CC5214D0B8D0057C46D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632E4CC3214D0B8D0057C46D /* LaunchScreen.storyboard */; };
+		6333F0A1215178C600F2A92B /* Constense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6333F0A0215178C600F2A92B /* Constense.swift */; };
+		63A2FCD5214D353600CD2C3B /* BlootTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A2FCD4214D353600CD2C3B /* BlootTableViewCell.swift */; };
+		63A2FCD7214E582600CD2C3B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A2FCD6214E582600CD2C3B /* Data.swift */; };
+		63A2FCD9214E59CD00CD2C3B /* Baloot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A2FCD8214E59CD00CD2C3B /* Baloot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,13 @@
 		632E4CC1214D0B8D0057C46D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		632E4CC4214D0B8D0057C46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		632E4CC6214D0B8D0057C46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6333F0A0215178C600F2A92B /* Constense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constense.swift; sourceTree = "<group>"; };
+		63A2FCD4214D353600CD2C3B /* BlootTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlootTableViewCell.swift; sourceTree = "<group>"; };
+		63A2FCD6214E582600CD2C3B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		63A2FCD8214E59CD00CD2C3B /* Baloot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baloot.swift; sourceTree = "<group>"; };
+		9F8B6EF6BBD8D5F4EBE54975 /* Pods-Balot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Balot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Balot/Pods-Balot.debug.xcconfig"; sourceTree = "<group>"; };
+		A8E7665793B568EE8B4B701D /* Pods_Balot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Balot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA588D5D3821D0007ABB81F5 /* Pods-Balot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Balot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Balot/Pods-Balot.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D2FB2E0CB5CD314A73DEBB7 /* Pods_Balot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1462B49F243F08ED834933EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F8B6EF6BBD8D5F4EBE54975 /* Pods-Balot.debug.xcconfig */,
+				EA588D5D3821D0007ABB81F5 /* Pods-Balot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5378CFA36AD43C8689FA9AE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8E7665793B568EE8B4B701D /* Pods_Balot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		632E4CAB214D0B8A0057C46D = {
 			isa = PBXGroup;
 			children = (
 				632E4CB6214D0B8A0057C46D /* Balot */,
 				632E4CB5214D0B8A0057C46D /* Products */,
+				1462B49F243F08ED834933EB /* Pods */,
+				5378CFA36AD43C8689FA9AE8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,12 +89,16 @@
 			isa = PBXGroup;
 			children = (
 				632E4CB7214D0B8A0057C46D /* AppDelegate.swift */,
+				6333F0A0215178C600F2A92B /* Constense.swift */,
 				632E4CB9214D0B8A0057C46D /* ViewController.swift */,
 				632E4CBB214D0B8A0057C46D /* Main.storyboard */,
 				632E4CC1214D0B8D0057C46D /* Assets.xcassets */,
 				632E4CC3214D0B8D0057C46D /* LaunchScreen.storyboard */,
 				632E4CC6214D0B8D0057C46D /* Info.plist */,
 				632E4CBE214D0B8A0057C46D /* Balot.xcdatamodeld */,
+				63A2FCD4214D353600CD2C3B /* BlootTableViewCell.swift */,
+				63A2FCD6214E582600CD2C3B /* Data.swift */,
+				63A2FCD8214E59CD00CD2C3B /* Baloot.swift */,
 			);
 			path = Balot;
 			sourceTree = "<group>";
@@ -74,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 632E4CC9214D0B8D0057C46D /* Build configuration list for PBXNativeTarget "Balot" */;
 			buildPhases = (
+				DC6ACA2AAE574E64AED8A14D /* [CP] Check Pods Manifest.lock */,
 				632E4CB0214D0B8A0057C46D /* Sources */,
 				632E4CB1214D0B8A0057C46D /* Frameworks */,
 				632E4CB2214D0B8A0057C46D /* Resources */,
+				2509F7BEB80871442CD4FF27 /* [CP] Embed Pods Frameworks */,
+				1A7E3B709EED4AB214D8E983 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +172,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A7E3B709EED4AB214D8E983 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Balot/Pods-Balot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2509F7BEB80871442CD4FF27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Balot/Pods-Balot-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Balot/Pods-Balot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC6ACA2AAE574E64AED8A14D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Balot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		632E4CB0214D0B8A0057C46D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +237,10 @@
 			files = (
 				632E4CC0214D0B8A0057C46D /* Balot.xcdatamodeld in Sources */,
 				632E4CBA214D0B8A0057C46D /* ViewController.swift in Sources */,
+				63A2FCD9214E59CD00CD2C3B /* Baloot.swift in Sources */,
+				63A2FCD7214E582600CD2C3B /* Data.swift in Sources */,
+				6333F0A1215178C600F2A92B /* Constense.swift in Sources */,
+				63A2FCD5214D353600CD2C3B /* BlootTableViewCell.swift in Sources */,
 				632E4CB8214D0B8A0057C46D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,15 +383,17 @@
 		};
 		632E4CCA214D0B8D0057C46D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F8B6EF6BBD8D5F4EBE54975 /* Pods-Balot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33LGMG279V;
 				INFOPLIST_FILE = Balot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = meshari.Balot;
+				PRODUCT_BUNDLE_IDENTIFIER = meshari.Baloot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,15 +402,17 @@
 		};
 		632E4CCB214D0B8D0057C46D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA588D5D3821D0007ABB81F5 /* Pods-Balot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33LGMG279V;
 				INFOPLIST_FILE = Balot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = meshari.Balot;
+				PRODUCT_BUNDLE_IDENTIFIER = meshari.Baloot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
