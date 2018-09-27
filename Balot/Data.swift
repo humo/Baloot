@@ -84,9 +84,7 @@ static func writeOnRealm(we: Int, them: Int, parent_id: String ){
                 }
          
                 
-                
-                print(lastitem.count)
-                print(Chield.count)
+       
                 }
      
             
