@@ -49,7 +49,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         view.endEditing(true)
         
     }
-       func check(){
+    
+    @IBAction func Dissmiss(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    func check(){
         ThemTotal.removeAll()
         OurTotal.removeAll()
             for i in b {
@@ -91,7 +95,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                 }
                 
                 let No = UIAlertAction(title: "لا", style: .cancel) { (action:UIAlertAction) in
-
+                    let viewController = self.storyboard?.instantiateViewController(withIdentifier: "welcome")
+                    self.present(viewController!, animated: true, completion: nil)
                 }
                 
                 alert.addAction(yes)
@@ -113,6 +118,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     self.replay()
                 }
                 let No = UIAlertAction(title: "لا", style: .cancel) { (action:UIAlertAction) in
+                    let viewController = self.storyboard?.instantiateViewController(withIdentifier: "welcome")
+                    self.present(viewController!, animated: true, completion: nil)
 
                 }
                 alert.addAction(yes)

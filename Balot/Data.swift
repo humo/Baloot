@@ -60,6 +60,46 @@ static func writeOnRealm(we: Int, them: Int, parent_id: String ){
         return re!
         
     }
+    static func Results(_ handler: @escaping(_ Result: [Result])->()) {
+        let realm = try! Realm()
+        let results = realm.objects(Myparent.self)
+        var idArray = [String]()
+        for result in results {
+            if !idArray.contains(result.id){
+            idArray.append(result.id)
+            }
+        
+        }
+        var weResult : Int = 0
+        var TheyReslt : Int = 0
+        var Results = [Result]()
+        if idArray.count > 0 {
+            
+            for id in idArray {
+             
+            let new = realm.objects(RealmData.self).filter("owner.id == '\(id)'")
+            
+                for we in new {
+                  
+              weResult += we.we
+        
+                }
+                for they in new {
+                 
+                TheyReslt += they.them
+                    
+                }
+                
+         
+           let finalResult =  Result(id: id, we: String(weResult), They: String(TheyReslt))
+            Results.append(finalResult)
+            TheyReslt = 0
+            weResult = 0
+            handler(Results)
+       
+            }
+        }
+    }
     static func back(id: String, object: Results<RealmData>) {
         
          let realm = try! Realm()
@@ -100,6 +140,8 @@ static func writeOnRealm(we: Int, them: Int, parent_id: String ){
             
         }
     }
+    
+    
 }
 
 final class Myparent: Object {

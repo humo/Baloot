@@ -18,6 +18,11 @@
 		63A2FCD5214D353600CD2C3B /* BlootTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A2FCD4214D353600CD2C3B /* BlootTableViewCell.swift */; };
 		63A2FCD7214E582600CD2C3B /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A2FCD6214E582600CD2C3B /* Data.swift */; };
 		63A2FCD9214E59CD00CD2C3B /* Baloot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A2FCD8214E59CD00CD2C3B /* Baloot.swift */; };
+		63CEF303215E384C00EADCB8 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CEF302215E384C00EADCB8 /* Welcome.swift */; };
+		63CEF305215E38E400EADCB8 /* newButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CEF304215E38E400EADCB8 /* newButton.swift */; };
+		63CEF307215E441E00EADCB8 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CEF306215E441E00EADCB8 /* History.swift */; };
+		63CEF309215E46D000EADCB8 /* HistoryCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CEF308215E46D000EADCB8 /* HistoryCellTableViewCell.swift */; };
+		63CEF30B215EA5F400EADCB8 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CEF30A215EA5F300EADCB8 /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +38,11 @@
 		63A2FCD4214D353600CD2C3B /* BlootTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlootTableViewCell.swift; sourceTree = "<group>"; };
 		63A2FCD6214E582600CD2C3B /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		63A2FCD8214E59CD00CD2C3B /* Baloot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baloot.swift; sourceTree = "<group>"; };
+		63CEF302215E384C00EADCB8 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		63CEF304215E38E400EADCB8 /* newButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newButton.swift; sourceTree = "<group>"; };
+		63CEF306215E441E00EADCB8 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		63CEF308215E46D000EADCB8 /* HistoryCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCellTableViewCell.swift; sourceTree = "<group>"; };
+		63CEF30A215EA5F300EADCB8 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		9F8B6EF6BBD8D5F4EBE54975 /* Pods-Balot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Balot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Balot/Pods-Balot.debug.xcconfig"; sourceTree = "<group>"; };
 		A8E7665793B568EE8B4B701D /* Pods_Balot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Balot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA588D5D3821D0007ABB81F5 /* Pods-Balot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Balot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Balot/Pods-Balot.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +109,11 @@
 				63A2FCD4214D353600CD2C3B /* BlootTableViewCell.swift */,
 				63A2FCD6214E582600CD2C3B /* Data.swift */,
 				63A2FCD8214E59CD00CD2C3B /* Baloot.swift */,
+				63CEF302215E384C00EADCB8 /* Welcome.swift */,
+				63CEF304215E38E400EADCB8 /* newButton.swift */,
+				63CEF306215E441E00EADCB8 /* History.swift */,
+				63CEF308215E46D000EADCB8 /* HistoryCellTableViewCell.swift */,
+				63CEF30A215EA5F300EADCB8 /* Result.swift */,
 			);
 			path = Balot;
 			sourceTree = "<group>";
@@ -236,11 +251,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				632E4CC0214D0B8A0057C46D /* Balot.xcdatamodeld in Sources */,
+				63CEF305215E38E400EADCB8 /* newButton.swift in Sources */,
 				632E4CBA214D0B8A0057C46D /* ViewController.swift in Sources */,
 				63A2FCD9214E59CD00CD2C3B /* Baloot.swift in Sources */,
+				63CEF307215E441E00EADCB8 /* History.swift in Sources */,
 				63A2FCD7214E582600CD2C3B /* Data.swift in Sources */,
+				63CEF30B215EA5F400EADCB8 /* Result.swift in Sources */,
+				63CEF303215E384C00EADCB8 /* Welcome.swift in Sources */,
 				6333F0A1215178C600F2A92B /* Constense.swift in Sources */,
 				63A2FCD5214D353600CD2C3B /* BlootTableViewCell.swift in Sources */,
+				63CEF309215E46D000EADCB8 /* HistoryCellTableViewCell.swift in Sources */,
 				632E4CB8214D0B8A0057C46D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
